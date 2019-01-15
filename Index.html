@@ -1,0 +1,72 @@
+﻿<html>
+	<head>
+		<title>
+			About Creators
+		</title>
+	<style>
+		input{background-color:white;
+		border:2px solid black;
+		border-color:#FFFF00;
+		width:150px;
+		margin-right:15px;
+		padding:15px 32px;
+		text-align:center;
+		display:inline-block;
+		border-radius:12px 2px 12px 2px;
+		font-family:berlin sans fb;}
+
+		img{border:none;
+		border-radius:12px;}
+	</style>
+	<script>
+		function show(arg){
+			if(arg==0){
+				document.getElementById("pic").src="Mark.jpg";
+				document.getElementById("details").innerHTML="<h1>Details</h1><br>Mark Zuckerberg created Facebook when he was studying at Harvard.<br>The website was launched on February 4, 2004";
+				document.getElementById("achievements").innerHTML="<h1>Achievements of Mark Zuckerberg</h1><ul><li>The budding software developer began attending the 'Harvard University', majoring in psychology and computer science. During his days at the university, he built programmes titled 'CourseMatch' and 'Facemash'. While 'CourseMatch' helped students select their courses and decide on study groups, 'FaceMash' was meant for fun, allowing students to choose the best face among a selection of photos.</li><br><li>In the next semester, in 2004, Mark launched a new website called 'Thefacebook.com'. He created the social networking site that along with friends Chris Hughes, Eduardo Saverin, Andrew McCollum, and Dustin Moskovitz.</li><br><li>'Facebook' was initially meant for students of 'Harvard University', but was later distributed to other educational institutions including 'Yale', 'Dartmouth', 'Stanford' and 'Columbia'.</li><br><li>Zuckerberg introduced a new project in 2013, titled 'Internet.org', in collaboration with cell phone firms like ‘Qualcomm’, ‘Samsung’, ‘Opera Software’, ‘Ericsson’, ‘Microsoft’, ‘MediaTek’, and ‘Reliance’. The aim of the project was to enable widespread use of Internet in developing countries.</li><br><li>The same year, this software developer became the CEO and Chairman of the company ‘Facebook, Inc.’, and was offered one dollar as salary.</li><br><li>In 2010, this accomplished entrepreneur was named the 'Person of the Year', by 'Times' magazine.</li><br><li>In 2011, 'The Jerusalem Post', an Israeli newspaper, named him the one of the 'Most Influential Jews'.</li></ul>";
+				
+				document.getElementById("fb").style.backgroundColor="yellow";
+				document.getElementById("wp").style.backgroundColor="white";
+				document.getElementById("gg").style.backgroundColor="white";
+			}
+			
+			if(arg==1){
+				document.getElementById("pic").src="Brian.jpg";
+				document.getElementById("details").innerHTML="<h1>Details</h1><br>WhatsApp was founded in 2009 by Brian Acton and Jan Koum, both former employees of Yahoo!.<br>On February 24, 2009, they incorporated WhatsApp Inc. in California";
+				document.getElementById("achievements").innerHTML="<h1>Achievements of Brian Acton & Jan Koum</h1><ul><li>In 1992, he became a systems administrator for Rockwell International, before becoming a product tester at Apple Inc. and Adobe Systems. In 1996, he became the 44th employee hired by Yahoo Inc.</li><br><li>In 1998, Jan Koum was hired by Yahoo as an infrastructure engineer shortly after he met Acton while working at Ernst & Young as a security tester. Over the next nine years, they worked at Yahoo. In January 2009, Koum bought an iPhone and realized that the then seven-month-old App Store was about to spawn a whole new industry of apps. He visited his friend Alex Fishman and talked about developing an app. Koum almost immediately chose the name WhatsApp because it sounded like “what’s up”, and a week later on his birthday, Feb. 24, 2009, he incorporated WhatsApp Inc. in California.</li><br><li>In 2014, Koum and Acton agreed to sell WhatsApp to Facebook for approximately $19 billion USD in cash and stock. Forbes estimates that Acton held over 20% stake in the company, making his net worth around $3.8 billion. According to Acton's personal Twitter feed, he was turned down for employment by both Twitter and Facebook in 2009. In September 2017, Acton left WhatsApp.</li><br><li>Acton and his wife Tegan Acton started Sunlight Giving in 2014. Sunlight Giving is a family foundation dedicated to supporting the basic services of low-income families with young children ages 0–5.</li><br><li>Acton left WhatsApp in September 2017 to start a new foundation, the Signal Foundation.</li></ul>";
+				
+				document.getElementById("fb").style.backgroundColor="white";
+				document.getElementById("wp").style.backgroundColor="yellow";
+				document.getElementById("gg").style.backgroundColor="white";
+			}
+			
+			if(arg==2){
+				document.getElementById("pic").src="Larry.jpg";
+				document.getElementById("details").innerHTML="<h1>Details</h1><br>Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California.<br>They incorporated Google as a privately held company on September 4, 1998.";
+				document.getElementById("achievements").innerHTML="<h1>Achievements of Larry Page</h1><ul><li>In 2009, Page received an honorary doctorate from the University of Michigan during a graduation commencement ceremony. In 2011, he was ranked 24th on the Forbes list of billionaires, and as the 11th richest person in the U.S.</li><br><li>In 2015, Page's \"Powerful People\" profile on the Forbes site states that Google is \"the most influential company of the digital era\".</li><br><li>As of July 2014, the Bloomberg Billionaires Index lists Page as the 17th richest man in the world, with an estimated net worth of $32.7 billion. At the completion of 2014, Fortune magazine named Page its \"Businessperson of the Year,\" declaring him \"the world’s most daring CEO\".</li><br><li>In October 2015, Page was named number one in Forbes\' \"America's Most Popular Chief Executives\", as voted by Google's employees.</li><br><li>In August 2017, Page was awarded honorary citizenship of Agrigento, Italy.</li><br><li>Also in August Larry declined to attend a USA Senate hearing. An empty seat labelled google defined his absence. His plans for a censored Chinese search engine called dragonfly upset some USA senators. He has refused to discuss his China search plans and did not even reveal his plans to google co-founder Sergey Brin. Google is coming under intense scrutiny for anti trust behaviour.</li></ul>";
+				
+				document.getElementById("fb").style.backgroundColor="white";
+				document.getElementById("wp").style.backgroundColor="white";
+				document.getElementById("gg").style.backgroundColor="yellow";
+			}
+			}
+	</script>
+	</head>
+	<body>
+		<img src=" " id="pic" style="height:40%; width:20%; float:left">
+		<div style="width:10%; height:40%; float:left">
+		</div>
+		<div id="details" style="width:70%; height:40%; font-family:berlin sans fb; float:left">
+			<h1>Details</h1>
+			-----------------------------------------------------------------------------------------
+		</div>
+		<div id="achievements" style="width:100%; height:50%; font-family:berlin sans fb; float:left">
+			<h1>Achievements</h1>
+			-----------------------------------------------------------------------------------------
+		</div>
+		<input id="gg" type="button" onclick="show(2);" value="Google" style="float:right"/>
+		<input id="wp" type="button" onclick="show(1);" value="Whatsapp" style="float:right"/>
+		<input id="fb" type="button" onclick="show(0);" value="Facebook" style="float:right";/>		
+		<script>show(0);</script>
+	</body>
+</html>
